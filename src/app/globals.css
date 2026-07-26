@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #1a1a1a;
+  background: #f7f8f4;
+}
+
+.rdp-brand {
+  --rdp-accent-color: #1e612f;
+  --rdp-background-color: #dcf3df;
+  --rdp-accent-color-dark: #1e612f;
+  --rdp-background-color-dark: #dcf3df;
+  margin: 0;
+}
